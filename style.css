@@ -1,0 +1,35 @@
+@font-face{
+    src: url(https://fonts.google.com/specimen/Outfit);
+    font-family: Outfit;
+}
+body{
+    box-sizing: border-box;
+    background-color:
+    hsl(220, 15%, 55%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteiner{
+    width: 360px;
+    height: 500px;
+    text-align: center; margin-top: 15vh;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+img{
+    border-radius: 10px;
+    margin: 15px;
+    width: 320px;
+    height: 320px;
+}
+h4{
+    font-weight: 700;
+    margin: 3px;
+}
+p{
+    white-space: pre-wrap;
+    display: block;
+    margin: 10px auto;
+    width: 230px;
+}
