@@ -1,12 +1,9 @@
-@font-face{
-    src: url(https://fonts.google.com/specimen/Outfit);
-    font-family: Outfit;
-}
 body{
     box-sizing: border-box;
     background-color:
     hsl(220, 15%, 55%);
     display: flex;
+    font-family: 'Outfit';
     justify-content: center;
     align-items: center;
 }
